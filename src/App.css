@@ -1,0 +1,106 @@
+body{
+  background-image: url('../public/bg.png');
+  background-size: cover;
+}
+.App {
+  background-color: rgb(16, 14, 46);
+  width: 70%;
+  margin: 5% auto 0;
+  border-radius: 10px;;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+}
+.header h1{
+  padding:30px 0 10px 0;
+  border-bottom: 1px solid lavender;
+
+}
+.stackContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.stackHeader {
+  color: #fff;
+  font-size: 22px;
+  padding: 20px;
+  margin: 5px;
+  background-color: #5a4860;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+.stack {
+  border-left: 1px solid rgba(230, 230, 250, 0.537);
+  border-right: 1px solid rgba(230, 230, 250, 0.537);
+  width: 100%;
+}
+
+.stack1{
+  border-bottom:5px solid rgb(196, 196, 196);
+}
+.stack2{
+  border-bottom:5px solid rgb(95, 113, 212);
+}
+.stack3{
+  border-bottom:5px solid rgb(165, 22, 185);
+}
+.stack4{
+  border-bottom:5px solid rgb(6, 219, 172);
+}
+
+.stack h2 {
+  margin: 0 !important;
+  padding: 20px 20px 0 20px;
+}
+
+.stack p {font-size: 16px;line-height: 20px;padding: 0 20px;}
+
+.card{
+  margin: 20px;
+  /* cursor: pointer; */
+  border-radius: 10px !important;
+  background-color: #5a4860;
+  color: #fff;
+}
+.footer {
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.footer span {
+  width: 50%;
+  display: inline-block;
+  color: #fff; 
+
+}
+
+.item1 span {
+  color: #000 !important; 
+
+}
+
+.item1 {
+  background-color: rgb(196, 196, 196);
+}
+.item2 {
+  background-color: rgb(95, 113, 212);
+}
+.item3 {
+  background-color: rgb(165, 22, 185);
+}
+.item4 {
+  background-color: rgb(6, 219, 172);
+}
+
+.item > h2 {
+  opacity: 0.5;
+}
